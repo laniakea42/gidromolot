@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Контакты</title>
+	<link rel="stylesheet" href="css/libs.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="preload">
+		<div class="sk-double-bounce">
+			<div class="sk-child sk-double-bounce-1"></div>
+			<div class="sk-child sk-double-bounce-2"></div>
+		</div>
+	</div>
+	
+	<header class="header">
+		<div class="upper">
+			<div class="nav--btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="container flex center spb">
+				<a href="index.html" class="logo-link"><img src="./img/logo.png" alt=""></a>
+				<form action="">
+					<input type="text" required placeholder="Поиск по сайту">
+					<button class="search-btn" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+				</form>
+				<div class="dropdown phone-drops">
+					<a href="tel:+77073332211" class="phones m"><i class="fa fa-phone" aria-hidden="true"></i></a>
+					<div class="col--phone">
+						<a href="tel:+7(702)7425077">+7 (702) 742-50-77</a>
+					</div>
+					
+					<div class="trigger"></div>
+					<div class="dropdown-menu">
+						<a href="tel:+7(702)7425077">+7 (702) 742-50-68</a>
+						<a href="tel:+7(702)7425077">+7 (702) 742-50-79</a>
+						<a href="tel:+7(702)7425077">+7 (702) 742-50-80</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	
+		<nav class="nav flex center container">
+			<div class="dropdown">
+				<span>Каталог товаров</span>
+				<div class="trigger"></div>
+				<div class="dropdown-menu">
+					<a href="catalog.html">Запчасти на Caterpillar</a>
+					<a href="catalog.html">Запчасти для HIDROMEK</a>
+					<a href="catalog.html">Запчасти на HITACHI</a>
+					<a href="catalog.html">Запчасти на DOOSAN</a>
+					<a href="catalog.html">Запчасти для HIDROMEK</a>
+					<a href="catalog.html">Запчасти на HITACHI</a>
+					<a href="catalog.html">Запчасти на Caterpillar</a>
+					<a href="catalog.html">Запчасти на DOOSAN</a>
+				</div>
+			</div>
+			<a href="about.html">О компании</a>
+			<a href="#" class="active">Новости</a>
+			<a href="contacts.html">Контакты</a>
+		</nav>
+	</header>
+	
+	<a href="tel:+77773332211" class="call--btn">
+		<i class="fa fa-phone" aria-hidden="true"></i>
+	</a>
+	
+	<div id="modal-offer" class="modal">
+		<div class="modal__layer"></div>
+		<div class="modal__block">
+			<a href="#" class="close"></a>
+			<h4>Оставить заявку</h4>
+			<form action="">
+				<input type="text" required placeholder="Ваше имя">
+				<input type="tel" required placeholder="Номер телефона" class="tel">
+				<input type="email" required placeholder="E-mail">
+				<textarea placeholder="Текст сообщения"></textarea>
+				<div class="flex">
+					<div class="g-recaptcha"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfycasZAAAAAOleQj_j_cJoz1tKKWUcEs1p_Thw&amp;co=aHR0cDovL2x1Y2t5ZW5nbGlzaC45ei5rejo4MA..&amp;hl=en&amp;v=yXSLJBpiFoTYkexaPhFknpU7&amp;size=normal&amp;cb=jj2ugswythpt" width="304" height="78" role="presentation" name="a-d3zntmc42ln1" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response-2" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+					<button class="btn open--modal" data-modal='#success-send'>Отправить</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	<div class="modal" id="success-msg">
+		<div class="modal__layer"></div>
+		<div class="modal__block">
+			<a href="#" class="close"></a>
+			<h4>Ваше сообщение успешно отправлено</h4>
+		</div>
+	</div>
+	
+	<div class="modal" id="success-send">
+		<div class="modal__layer"></div>
+		<div class="modal__block">
+			<a href="#" class="close"></a>
+			<h4>Ваша заявка успешно отправлена</h4>
+		</div>
+	</div>
+	<div class="wrapper cts-page page">
+
+    <section class="breadcrumbs">
+      <div class="container">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li>Контакты</li>
+        </ul>
+      </div>
+    </section>
+
+    <main class="main-c first-sec">
+      <div class="map"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A173e9f3bda9ae114c5c5cdd7ab1f25e8a454f3ca570ed7c865f294528ec24262&amp;width=945&amp;height=720&amp;lang=ru_RU&amp;scroll=true"></script></div>
+			<div class="container">
+				<h1>Контакты</h1>
+				<div class="width-fix grid-cts">
+					<div class="col--phone">
+						Телефон:
+						<a href="tel:+7 (702) 742-50-77">+7 (702) 742-50-77</a>
+						<a href="tel:+7 (702) 742-50-77">+7 (707) 185-05-08</a>
+						<a href="tel:+7 (702) 742-50-77">+7 (701) 718-29-13</a>
+						<a href="tel:+7 (702) 742-50-77">+7 (707) 340-69-79</a>
+					</div>
+					<div class="col--time">
+						Режим работы:
+						<div class="b">
+							<b>Пн. - Пт.: 09:00 - 18:00;<br>Сб.: 09:00 - 14:00</b>
+						</div>
+					</div>
+					<div class="col--location">
+						Адрес:<br>
+						<b>г. Алматы, Рыскулова 72</b>
+					</div>
+					<div class="col--email">
+						Эл. почта:
+						<a href="mailto:info@gidromolot-center.kz">info@gidromolot-center.kz</a>
+					</div>
+					<div class="soc">
+						Соц. сети:
+						<div class="flex center">
+							<a href="#" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+							<a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+      <div class="line"></div>
+      <div class="container">
+				<div class="width-fix cts">
+					<h3>Обратная связь</h3>
+					<form action="">
+						<input type="text" required placeholder="Ваше имя">
+						<input type="tel" required placeholder="+ 7 ( ___ ) - ___ - __ - __" class="tel">
+						<input type="text" required placeholder="Эл. почта">
+						<input type="text" required placeholder="Сообщение">
+						<div class="flex">
+							<div class="g-recaptcha"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfycasZAAAAAOleQj_j_cJoz1tKKWUcEs1p_Thw&amp;co=aHR0cDovL2x1Y2t5ZW5nbGlzaC45ei5rejo4MA..&amp;hl=en&amp;v=yXSLJBpiFoTYkexaPhFknpU7&amp;size=normal&amp;cb=xz83hor6e841" width="304" height="78" role="presentation" name="a-6bcccy7itnsr" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response-2" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+							<button class="btn open--modal" data-modal="#success-msg" type="submit">Отправить</button>
+						</div>
+					</form>
+				</div>
+			</div>
+    </main>
+
+  </div>
+  <footer class="footer">
+    <div class="upper">
+      <div class="container">
+        <div class="cat-links">
+          <div class="title">Каталог товаров</div>
+          <div class="grid-2">
+            <ul class="check--list">
+              <li><a href="catalog.html">Запчасти на DOOSAN</a></li>
+              <li><a href="catalog.html">Запчасти на Caterpillar (CAT)</a></li>
+              <li><a href="catalog.html">Запчасти на HITACHI</a></li>
+              <li><a href="catalog.html">Запчасти на JCB</a></li>
+              <li><a href="catalog.html">Запчасти для HIDROMEK</a></li>
+              <li><a href="catalog.html">Запчасти на VOLVO</a></li>
+              <li><a href="catalog.html" class="active">Запчасти на HYUNDAI</a></li>
+              <li><a href="catalog.html">Запчасти на KOMATSU</a></li>
+              <li><a href="catalog.html">Запчасти на Case</a></li>
+              <li><a href="catalog.html">Запчасти на LiuGong</a></li>
+              <li><a href="catalog.html">Запчасти на XCMG</a></li>
+              <li><a href="catalog.html">SHANTUI</a></li>
+              <li><a href="catalog.html">Гидромолот на экскаваторы</a></li>
+            </ul>
+  
+            <ul class="check--list">
+              <li><a href="catalog.html">Ковш на экскаватор</a></li>
+              <li><a href="catalog.html">Гидромолот эконом класса</a></li>
+              <li><a href="catalog.html">Гидромолоты премиум класса</a></li>
+              <li><a href="catalog.html">Гидромолоты для карьерной техники</a></li>
+              <li><a href="catalog.html">Ковши для экскаваторов</a></li>
+              <li><a href="catalog.html">Ковши строительные</a></li>
+              <li><a href="catalog.html">Ковши карьерные</a></li>
+              <li><a href="catalog.html">Ковши карьерные</a></li>
+              <li><a href="catalog.html">Грейферы и захваты</a></li>
+              <li><a href="catalog.html">Навесное оборудование SIMEX (Италия)</a></li>
+              <li><a href="catalog.html">Ремонт и изготовление ковшей</a></li>
+              <li><a href="catalog.html">Гидронасосы, гидромоторы Kawasaki</a></li>
+              <li><a href="catalog.html">Коронки на Экскаваторы</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="logo-col">
+          <a href="index.html" class="logo-link"><img src="./img/logo.png" alt=""></a>
+  
+          <div class="col--phone">
+            <a href="tel:+7 (702) 742-50-77">+7 (702) 742-50-77</a>
+            <a href="tel:+7 (702) 742-50-77">+7 (707) 185-05-08</a>
+            <a href="tel:+7 (702) 742-50-77">+7 (701) 718-29-13</a>
+            <a href="tel:+7 (702) 742-50-77">+7 (707) 340-69-79</a>
+          </div>
+          <div class="col--email">
+            <a href="mailto:info@gidromolot-center.kz">info@gidromolot-center.kz</a>
+          </div>
+          <div class="col--location">г. Алматы, Рыскулова 72</div>
+          <div class="col--time">Пн. - Пт.: 09:00 - 18:00; Сб.: 09:00 - 14:00</div>
+  
+          <div class="soc">
+            <a href="#" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+  
+        </div><!--col-logo-end-->
+      </div>
+    </div><!--upper-end-->
+  
+    <div class="copy">
+      <div class="container">
+        <div>Copyright &copy; 2020 ИП Gidromolot.kz. All rights reserved</div>
+        <a href="https://artmedia.kz/" target="_blank">Создание сайта <img src="./img/art.png" alt="Создание сайта ARTMEDIA.KZ"></a>
+      </div>
+    </div>
+  </footer>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/libs.js"></script>
+<script>
+  wow = new WOW({
+    boxClass:     'wow',      
+    animateClass: 'animated', 
+    offset:       0,          
+    mobile:       false,       
+    live:         true        
+})
+wow.init();		
+</script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
